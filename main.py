@@ -27,7 +27,7 @@ config = {
         #"user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
          }
 
-TOKEN = "5848862848:AAEIxZ-NCqLfXwec-TPzaN7CL9KJ9VSYesc"
+TOKEN = "<YOUR TOKEN>"
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
